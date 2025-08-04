@@ -1,9 +1,12 @@
 export const MC_RIDE_BIOGRAPHY =
 `Stefan Burnett, or his stage name MC Ride, has done many things, but he is most well known for being the lead singer in the experimental hip hop group known as Death Grips. Early life
 
-MC Ride was born on May 10, 1978 in Sacramento, California. He has a brother who also makes music under the name Swank Daddy. He went to Hampton University and studied visual arts, but later dropped out.
+MC Ride was born on May 10, 1978 in Sacramento, California. He has a brother who also makes music under the name Swank Daddy. He went to Hampton University and studied visual arts, but later dropped out.`
 
-Career
+
+
+export const MC_RIDE_BIOGRAPHY_2 =
+`Career:
 
 Ride formed a hip hop group called Fyre with his brother and a rapper named Young G. This group ended when his brother got married, and because of that, he wasn’t able to keep performing with the group. Also, he had been pursuing painting as a career too.
 
@@ -15,24 +18,27 @@ However, on July 2, 2014, they announced that they would be disbanding, posting 
 
 In May 2016, after they allegedly disbanded, they released the album Bottomless Pit. After that, they released their EP Steroids (Crouching Tiger Hidden Gabber Megamix) in 2017. Finally, they released their final album to date, Year of the Snitch, and released their final project to date, Gmail and the Restraining Orders in 2019.
 
-Art
+Art:
 
 Ride has a very aggressive style of rapping, including powerful, abrasive screams and yells, being described as “a visceral and poetic form of rapping, resembling a blend of hardcore punk and spoken word performance,” as well as “paint-peeling barks and startling yelps.” Also, he creates art as a side career, making portraits that are dark and monochromatic.
 
-Personal Life
+Personal Life:
 
 Even though Ride raps very aggressively in his songs, he seems very soft-spoken and shy in interviews with him. Also, he has stated that he is a very private individual, stating that, “I have very few people that I call my friends. I'm very distrustful of human beings in general; I'm very distrustful of media. I have no interest in sharing my personal life with the world. Zero.”
 
 In addition, Ride has many various tattoos, most of which have dark and Satanic imagery. Some of which being a “111” on his stomach, skulls, spiders, pentagrams, voodoo symbols, a raven, and the word “Death.”
 
-Source
+Source:
 
 https://en.wikipedia.org/wiki/MC_Ride`
 
 export const APP_NARRATIVE =
 `It was a normal evening, I just got back from bass practice, and I take a look at my phone to check the time. But I noticed something strange: there was a mysterious new app on my phone.
 
-I did not remember installing this app before, so I curiously opened it up, and on the screen suddenly appeared a timer counting down from 24 hours. I suddenly got really frightened, so I immediately closed out of the app, or at least I tried to. When I tried to swipe the app up, it would not move. Closing my other apps worked, but this one just would not budge. And now, there was the counting down timer stuck in the dynamic island at the top of my phone. So now I was frightened, but I realized that I still have 24 hours until something bad can happen. So, I went to sleep and hoped that I would have some kind of dream that would give me a solution.
+I did not remember installing this app before, so I curiously opened it up, and on the screen suddenly appeared a timer counting down from 24 hours. I suddenly got really frightened, so I immediately closed out of the app, or at least I tried to. When I tried to swipe the app up, it would not move. Closing my other apps worked, but this one just would not budge. And now, there was the counting down timer stuck in the dynamic island at the top of my phone.`
+
+export const APP_NARRATIVE_2 =
+`So now I was frightened, but I realized that I still have 24 hours until something bad can happen. So, I went to sleep and hoped that I would have some kind of dream that would give me a solution.
 
 I did not have some kind of dream that gave me a solution. It was bad. So now I was left with 15 hours left to come up with what this thing could possibly be, and how to fix this. However, it then suddenly came to me. THIS IS DEFINITELY A BOMB. I might be seriously in danger. But who would possibly do this to me? I pondered for a while, and I suddenly realized. FRANK.
 
@@ -53,3 +59,30 @@ I was about to blow up into smithereens, I saw my life flashing before my eyes. 
 Love, Mom.”
 
 I’ve never hated my mom more in my entire life than at that moment.`
+
+export const SOMETHING_THAT_HAPPENED_BLAH_BLAH =
+`
+I was about 6 years old, and I lived in a tiny neighborhood of about ten houses, having a large hill that goes downwards, and a cul-de-sac at the end. Since riding down the hill caused you to go down very fast, I liked to frequently bike up it and zoom down the hill afterwards.`
+
+export const SOMETHING_THAT_HAPPENED_BLAH_BLAH_2 =
+`One ordinary evening, I was biking, and my mom was with me. Because I wanted to show her how fast I could travel on this little bike, I rode up, started to bike down, and accelerated rapidly down the hill. I then looked back at my mom while biking down (don’t do this), and as a result, I didn’t see that I had to turn left slightly. So, I braked too hard, fell off the bike, and landed straight onto the asphalt with my face.
+
+Therefore, my face was now torn up, and I had to be taken back inside. My face was torn up, and I was crying a lot. Because of this injury, my grandpa had to apply some sort of tonic to my face. This made the pain even worse. This resulted in me being in a state of agony for the next hour.
+
+I still had to go to kindergarten, of course, with my half-bruised face. Even though I lowkey felt really cool with this face, my kindergarten teacher had to ask my mom if she was abusing me because of it. In conclusion, if you fall off your bike at 15 miles per hour because you got distracted, it results in negative consequences. Pay attention when biking.`
+
+export const ABC_REVIEW = 
+`
+You might have heard of the graphic novel, American Born Chinese, because it’s pretty popular and got a TV adaptation on Disney+. However, should you actually read it?`
+
+export const ABC_REVIEW_2 =
+`
+American Born Chinese is a graphic novel written and illustrated by Gene Luen Yang, with 240 pages. If that’s too many pages for you for whatever reason or you hate the author or something, then I guess don’t read it? Anyways, basically there’s this divine being called the Monkey King, who is a king of many monkeys, this Chinese kid called Jin Wang who is trying to fit in at school, and this white kid called Danny who is in high school and has to face the embarrassment of having to be with his super obnoxious annoying Chinese stereotype representing being named Chin-Kee. These three characters have different stories that alternate every chapter and will eventually have some sort of connection to each other. Now what do I think of this book? I think that this book is actually really great. The author did a great job coming up with this story and illustrating it, and I think that the plot is very interesting and is also very entertaining. It gets especially interesting near the end. So, read this.
+`
+export const STORY_STORY =
+`
+One fine evening, I woke up from my nap. I went to talk to my mom, asking her, “What’s for dinner, Mom?”`
+export const STORY_STORY_2 =
+`
+Then, she randomly started speaking Persian, saying “صبر کن تو پسر من نیستی! من هم نمی دانم شما چه می گویید.” Then I realized that the shenanigans I did yesterday throwing chocolate cakes onto people’s heads caused me to teleport to Iran. I was bamboozled! I thought, I might as well learn some Persian. So I took Mom’s phone, jumped out the house, installed some random language learning app, and learned two words in Persian. I am completely fluent now! I felt super bodacious. So then I went out in public and said some random stuff to some random guy. “Brouhaha!” he exclaimed. “این مرد سعی می کند فارسی بداند، اما در واقع یک احمق است!” I had no idea what he said, but then I saw some other random guy start canoodling with him out in public. So then I pulled out my skateboard out of my left pocket, and started doing some gnarly tricks. Everyone was goggling at me, since my tricks were so good. I started to feel included in Iran! Then my mom came running after me, so I skated away. She screamed, “تو برگرد اینجا پسر کوچولو!” I started hurling some gubbins at her, until I escaped to Afghanistan.
+`
