@@ -30,10 +30,10 @@ function App() {
         fontFamily: "Comic Relief",
         color: "#D000FF", 
         textAlign: "right", 
-        letterSpacing: "57px",
+        letterSpacing: "31px",
         backgroundImage: 'linear-gradient(to right,rgb(255, 0, 0),rgb(211, 179, 0), rgb(36, 218, 12), rgb(78, 0, 223), rgb(182, 0, 228)', 
-        fontSize: "101px"
-        }}>Welcome to My Blog</h1>
+        fontSize: "99px"
+        }}>Welcome to jayden yang's very skibidi blog</h1>
       <button onClick={() => setBgColor(!bgColor)}>
         change backroun color</button>
       <p>Content here</p>
@@ -72,7 +72,7 @@ function PlogBost(props) {
       <p style={{ marginBottom: '10px',
         fontFamily: props.fooooooooooooooo0o0o0ont
       }}>
-        👍 Likes: {likes}
+        👍 Likes: (these dont save btw) {likes}
       </p>
       <p style={{
         fontFamily: props.fooooooooooooooo0o0o0ont
