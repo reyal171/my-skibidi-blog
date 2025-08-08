@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/my-skibidi-blog/static/css/main.f855e6bc.css",
-    "main.js": "/my-skibidi-blog/static/js/main.a536fb32.js",
+    "main.js": "/my-skibidi-blog/static/js/main.4b2132e8.js",
     "static/js/453.c04b481f.chunk.js": "/my-skibidi-blog/static/js/453.c04b481f.chunk.js",
     "static/media/mcrideexampleimage.jpg": "/my-skibidi-blog/static/media/mcrideexampleimage.3d1ec9dce842eabbb225.jpg",
     "static/media/abcmasterpieceimage.png": "/my-skibidi-blog/static/media/abcmasterpieceimage.bfc5bbc33ed4f809bb0c.png",
@@ -11,11 +11,11 @@
     "static/media/logo.svg": "/my-skibidi-blog/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
     "index.html": "/my-skibidi-blog/index.html",
     "main.f855e6bc.css.map": "/my-skibidi-blog/static/css/main.f855e6bc.css.map",
-    "main.a536fb32.js.map": "/my-skibidi-blog/static/js/main.a536fb32.js.map",
+    "main.4b2132e8.js.map": "/my-skibidi-blog/static/js/main.4b2132e8.js.map",
     "453.c04b481f.chunk.js.map": "/my-skibidi-blog/static/js/453.c04b481f.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.f855e6bc.css",
-    "static/js/main.a536fb32.js"
+    "static/js/main.4b2132e8.js"
   ]
 }
