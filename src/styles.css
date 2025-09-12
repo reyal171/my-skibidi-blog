@@ -1,0 +1,40 @@
+/* styles.css */
+.read-btn {
+  background-color: #f77d36;
+  font-family: "comic relief";
+  color: white;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 8px;
+  transition: transform 0.2s ease, background-color 0.2s ease;
+}
+
+.read-btn:hover {
+  transform: scale(1.25);
+  background-color: #ffaa2b;
+}
+
+.like-btn:active {
+  transform: scale(1);
+  animation: bounce 0.25s;
+}
+
+@keyframes bounce {
+  0%, 100% { transform: scale(1); }
+  50% { transform: scale(3); }
+}
+
+.like-btn {
+  background-color: #4fb34c;
+  font-family: "comic relief";
+  color: white;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 8px;
+  transition: transform 0.2s ease, background-color 0.2s ease;
+}
+
+.like-btn:hover {
+  transform: scale(2.23);
+  background-color: #83f555;
+}
