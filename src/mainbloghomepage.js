@@ -129,11 +129,13 @@ function PlogBost(props) {
       
         Like 👍
       </button>
-        <button className="read-btn"
+        <motion.button className="read-btn"
+        whileHover={{scale:1.32}}
+        whileTap={{scale:2.67,rotate:-51}}
         onClick={() => setShowMore(!showMore)}
       >
         {showMore ? 'Show Less' : 'Read More'}
-      </button>
+      </motion.button>
     </div>
 
   );
