@@ -15,12 +15,33 @@ function About() {
         fontFamily: "Comic Relief",
         color: TxtColor ? 'black' : 'white',
       }}>about this blog website!1</h1>
-      <motion.button className="read-btn"
-       whileHover={{scale:4.1}}
-       whileTap={{scale:67,rotate:-400}}
+     <div style={{display: "flex", flexDirection: "row-reverse"}}>
+        <motion.button className="read-btn"
+          whileHover={{scale:4.1}}
+           whileTap={{scale:67,rotate:-400}}
+        >
+          Read More
+       </motion.button>
+            <motion.button
+         whileHover={{ scale: 3.1 }}
+         whileTap={{ scale: 1.1, rotate: 63}}
+          onClick={() => setBgColor(!bgColor)}
+         className="p-2 bg-blue-500 text-white rounded"
+      
+        
       >
-       Read More
+        change backroun color
       </motion.button>
+        <motion.button
+          whileHover={{ scale: 1.1 }}
+          whileTap={{ scale: 1.1, rotate: -67}}
+          onClick={() => setTxtColor(!TxtColor)}
+          className="p-2 bg-blue-500 text-white rounded"
+        
+      >
+          change TExt coLor
+        </motion.button>
+      </div>
       <p style={{
         fontFamily: "Comic Relief",
         color: TxtColor ? 'black' : 'white',
@@ -47,25 +68,6 @@ function About() {
        whileTap={{scale:67,rotate:-400}}
       >
        Read More
-      </motion.button>
-      <motion.button
-        whileHover={{ scale: 1.1 }}
-        whileTap={{ scale: 2.1, rotate: 63}}
-        onClick={() => setBgColor(!bgColor)}
-        className="p-2 bg-blue-500 text-white rounded"
-      
-        
-      >
-        change backroun color
-      </motion.button>
-      <motion.button
-        whileHover={{ scale: 3.1 }}
-        whileTap={{ scale: 2.1, rotate: -67}}
-        onClick={() => setTxtColor(!TxtColor)}
-        className="p-2 bg-blue-500 text-white rounded"
-        
-      >
-        change TExt coLor
       </motion.button>
       <motion.button className="read-btn"
        whileHover={{scale:4.1}}
