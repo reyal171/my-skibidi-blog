@@ -12,7 +12,7 @@ function App() {
       <div>
         {/* Navigation Menu */}
         <nav>
-          <Link to="/">home</Link> | <Link to="/about">about</Link> | <Link to="/rpsgame">RockPaperScissorgame</Link> | <Link to="/hangman">hangmanGame</Link> {/* | <Link to="/blank">test67</Link> */}
+          <Link to="/">home</Link> | <Link to="/about">about</Link> | <Link to="/rpsgame">RPSgame</Link> | <Link to="/hangman">hangmanGame</Link> {/* | <Link to="/blank">test67</Link> */}
         </nav>
 
         {/* Define Routes */}

@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import hangmanbg from "./hungman.png"
 const bank = ["cat", "pseudopseudohypoparathyroidism", "cryptic", "xylophones", "glyph", "hymn", "rhythm", "jazzy", "kayak", "galvanized", "voyeurism", "yachtsman", "crwth", "kazoo", "daiquiri", "megahertz", "espionage", "larynx", "thriftless", "the purple monkey dishwasher sang opera to the confused giraffe who was trying to find his lost sock in the cereal box while a flock of flamingos debated the merits of abstract art and the cheese whispered secrets to the moon", "floccinaucinihilipilification", "hydrochlorofluorocarbon", "read", "jump", "banana", "the quick brown fox jumps over the lazy dog", "waqfs", "vozhd"]
 let daword = bank[Math.floor(Math.random() * bank.length)]
@@ -97,6 +97,17 @@ export default function Hangman() {
         daword = bank[Math.floor(Math.random() * bank.length)]
         
     }
+    useEffect(() => {
+         function handleKeyPress(e) {
+           const letter = e.key.toLowerCase();
+            if (lives != 0 && letter.match(/[a-z\ ]/)) {
+             handleGuess(letter);
+            }
+              }
+
+             window.addEventListener("keydown", handleKeyPress);
+               return () => window.removeEventListener("keydown", handleKeyPress);
+              }, [Allguesses, daword]);
         
 
     // Build display word with underscores
@@ -108,7 +119,7 @@ export default function Hangman() {
 
     return (
         <div style={{ textAlign: "center", fontFamily: "Comic Relief", backgroundColor: 'red', display: "flex", flexDirection: "column", alignItems: "center", justifyContent: "space-around"}}>
-            <h1 style={{marginBottom: "-30px"}}>easy hangman gameeeeeeeeee the blank button is a space</h1>
+            <h1 style={{marginBottom: "-30px"}}>easy hangman gameeeeeeeeee the blank button is a space and now u can use ur keyboard</h1>
             <p>
                 {/* {daword} */}
             </p>
