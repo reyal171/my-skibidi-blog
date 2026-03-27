@@ -55,7 +55,7 @@ function Mainbloghomepage() {
         letterSpacing: "31px",
         backgroundImage: 'linear-gradient(to right,rgb(255, 0, 0),rgb(211, 179, 0), rgb(36, 218, 12), rgb(78, 0, 223), rgb(182, 0, 228)', 
         fontSize: "99px"
-        }}>Welcome to jayden yang's very skibidi blog</h1>
+        }}>Welcome to jayden yang's  blogog</h1>
         <motion.button
         whileHover={{ scale: 1.1 }}
         whileTap={{ scale: 2.1, rotate: 63}}

@@ -1,7 +1,9 @@
 import React, { useState } from "react";
+import backgroundphoto from "./rps.png"
 import rockphoto from "./rockstockimage.jpg";
 import paperphoto from "./paperstockimage.jpg";
 import scissorsphoto from "./scissorsstockimage.jpg";
+
 
 export default function RPSGame() {
   const [userChoice, setUserChoice] = useState("");
@@ -25,7 +27,7 @@ export default function RPSGame() {
     const comp = choices[Math.floor(Math.random() * choices.length)];
     setComputerChoice(comp);
 
-    if (choice === comp) {
+    if (choice == comp) {
       setResult("u draw!");
       setTies(ties + 1)
     }
@@ -57,6 +59,8 @@ export default function RPSGame() {
       <p>You chose: {userChoice}</p>
       <img src={getImage(computerChoice)} width="670" height="251"/>
       <p>Computer chose: {computerChoice}</p>
+      <img src={backgroundphoto}></img>
     </div>
-  );
+  ); 
 }
+
