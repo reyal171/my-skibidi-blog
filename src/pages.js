@@ -4,6 +4,7 @@ import Mainbloghomepage from "./mainbloghomepage";
 import About from "./about";
 import RPSGame from "./rpsgame"
 import Hangman from "./hangman"
+import GuestBook from "./guestBook";
 import FlexPlayground from "./blank";
 
 function App() {
@@ -12,7 +13,7 @@ function App() {
       <div>
         {/* Navigation Menu */}
         <nav>
-          <Link to="/">home</Link> | <Link to="/about">about</Link> | <Link to="/rpsgame">RPSgame</Link> | <Link to="/hangman">hangmanGame</Link> {/* | <Link to="/blank">test67</Link> */}
+          <Link to="/">home</Link> | <Link to="/about">about</Link> | <Link to="/rpsgame">RPSgame</Link> | <Link to="/hangman">hangmanGame</Link> {/* | <Link to="/blank">test67</Link> */} | <Link to="/guestbook">guestBook</Link>
         </nav>
 
         {/* Define Routes */}
@@ -22,6 +23,7 @@ function App() {
           <Route path="/rpsgame" element={<RPSGame />} />
           <Route path="/hangman" element={<Hangman />} />
           {/* <Route path="/blank" element={<FlexPlayground />} /> */}
+          <Route path="/guestbook" element={<GuestBook />} />
           <Route path="*" element={<Mainbloghomepage/>} />
         </Routes>
       </div>

@@ -4,6 +4,7 @@
   "private": true,
   "homepage": "https://reyal171.github.io/my-skibidi-blog",
   "dependencies": {
+    "@supabase/supabase-js": "^2.103.3",
     "@testing-library/dom": "^10.4.0",
     "@testing-library/jest-dom": "^6.6.3",
     "@testing-library/react": "^16.3.0",
