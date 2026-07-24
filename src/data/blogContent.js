@@ -117,7 +117,7 @@ Any crimethink message against Party or Big Brother, especially on clothes, resu
 
 Any child writing in unapproved notebook from outside school commit ownlifecrime. Entire bloodline vaporized.
 
-BB: Party fullwise expect doubleplusgood results from newrules. Enjoy goodthink schooling at Large Male Sibling Primary School. Big Brother watchful always. BB out. *jingle*
+BB: Party fullwise expect doubleplusgood results from newrules. Enjoy goodthink schooling at Large Male Sibling Primary School. Big Brother watchful always. BB out. *jingle* ////////////////////////////////////
 
 
 
