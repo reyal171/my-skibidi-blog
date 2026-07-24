@@ -86,3 +86,67 @@ export const STORY_STORY_2 =
 `
 Then, she randomly started speaking Persian, saying “صبر کن تو پسر من نیستی! من هم نمی دانم شما چه می گویید.” Then I realized that the shenanigans I did yesterday throwing chocolate cakes onto people’s heads caused me to teleport to Iran. I was bamboozled! I thought, I might as well learn some Persian. So I took Mom’s phone, jumped out the house, installed some random language learning app, and learned two words in Persian. I am completely fluent now! I felt super bodacious. So then I went out in public and said some random stuff to some random guy. “Brouhaha!” he exclaimed. “این مرد سعی می کند فارسی بداند، اما در واقع یک احمق است!” I had no idea what he said, but then I saw some other random guy start canoodling with him out in public. So then I pulled out my skateboard out of my left pocket, and started doing some gnarly tricks. Everyone was goggling at me, since my tricks were so good. I started to feel included in Iran! Then my mom came running after me, so I skated away. She screamed, “تو برگرد اینجا پسر کوچولو!” I started hurling some gubbins at her, until I escaped to Afghanistan.
 `
+export const NEWSPEAK_RULES = 
+`
+*jingle*
+Attenschool comradechildren. Doubleplusgood newswise. School now under goodthink management of Party reps. Fullwise attend following rules from Party and Big Brother.
+
+BB: Goodday, comradechildren of Large Male Sibling Primary School. Ten newrules add to conductcode. Newrules make school doubleplusgood, plussafe, pluswise, and plushappy.
+`
+export const NEWSPEAK_RULES_2 = 
+`
+BB: Goodday, comradechildren of Large Male Sibling Primary School. Ten newrules add to conductcode. Newrules make school doubleplusgood, plussafe, pluswise, and plushappy.
+
+Vaporization now fullgood punishment for any person.
+
+Pro-Party bathroom writegood and wallgood strongly goodthink.
+
+Fightgood only against ownlife spreading ungoodthink or anti-Party lies.
+
+No ownlife during classchange. Walkwise direct to next class in goodorder.
+
+Lunchtime: any child not fullwise attending telescreen announcements receive doubleplusungood punishment.
+
+Any child underperforming Physical Jerks during standard PE receive doubleplusless rations.
+
+Homeroom: any child not speaking Party slogans with full bellyfeel receive manual heightplus by stretching.
+
+Teachcomrades now have fullwise authority vaporize any child at discretion.
+
+Any crimethink message against Party or Big Brother, especially on clothes, result in boxship to enemy joycamp.
+
+Any child writing in unapproved notebook from outside school commit ownlifecrime. Entire bloodline vaporized.
+
+BB: Party fullwise expect doubleplusgood results from newrules. Enjoy goodthink schooling at Large Male Sibling Primary School. Big Brother watchful always. BB out. *jingle*
+
+
+
+
+
+
+*jingle* Attention students, we have fantastic news to be shared. The school will now be under management by representatives from the Party. Please pay attention to the following rules provided by the Party and Big Brother.
+
+Bb: Hello students of Large Male Sibling Primary School. This list of ten new rules will be added to your current code of conduct. These rules will make the school a safer, smarter, happier, and greater place.
+
+Vaporization is now an acceptable form of punishment for anybody.
+
+Pro-Party vandalism in the bathrooms is strongly encouraged.
+
+Fighting in school is allowed if the victim is spreading anti-Party lies.
+
+No fooling around during class change. Only walking directly to your next class in a neat and organized fashion.
+
+During lunch, anybody seen not paying attention to the telescreens for announcements will be severely punished.
+
+Any student who is seen underperforming in Physical Jerks during standardized PE class will have every one of their rations decreased greatly.
+
+During homeroom, anybody not reciting the Party slogans will have their height manually increased by stretching.
+
+Teachers now have permission to vaporize any students at their discretion.
+
+Any messaging found that is against the Party or Big Brother, especially on clothing, will get you shipped in a box to an enemy prison.
+
+If a student is found writing in an unauthorized notebook from outside of the school, they will be subject to vaporization of their entire bloodline.
+
+Bb: We are absolutely stoked to see these rules put into effect. Enjoy your schooling at Large Male Sibling Primary School! Big Brother out! *jingle*
+`

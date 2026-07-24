@@ -13,7 +13,9 @@ import {
   ABC_REVIEW,
   ABC_REVIEW_2,
   STORY_STORY,
-  STORY_STORY_2
+  STORY_STORY_2,
+  NEWSPEAK_RULES,
+  NEWSPEAK_RULES_2,
 } from './data/blogContent';
 import {
   APP_NARRATIVE
@@ -24,6 +26,7 @@ import redactedphoto from "./redacted.png"
 import longphoto from "./sometingthathashappendeinmylifepart2imngthingy.png"
 import abcimage from "./abcmasterpieceimage.png"
 import gnarlyimage from "./gnarly.png"
+import largemalesiblingimage from "./largemalesibling poster.png"
 
 //  class MovieClip extends React.Component {
 //     render() {
@@ -76,6 +79,7 @@ function Mainbloghomepage() {
       <PlogBost title="something that has happened in my life v2 but cause and effect this time by me"content={SOMETHING_THAT_HAPPENED_BLAH_BLAH}color="pink"fooooooooooooooo0o0o0ont="comic relief"contentofplogbooooooo0oo0o0ost={SOMETHING_THAT_HAPPENED_BLAH_BLAH_2}imageofplogboooo0o0ost={longphoto}link={"https://substack.com/home/post/p-158488578"}/>
       <PlogBost title="should you read American Born Chinese??"content={ABC_REVIEW}color="#2E84F5"fooooooooooooooo0o0o0ont="comic relief"contentofplogbooooooo0oo0o0ost={ABC_REVIEW_2}imageofplogboooo0o0ost={abcimage}link={"https://substack.com/home/post/p-150917473"}/>
       <PlogBost title="story.story"content={STORY_STORY}color="#A68DF2"fooooooooooooooo0o0o0ont="comic relief"contentofplogbooooooo0oo0o0ost={STORY_STORY_2}imageofplogboooo0o0ost={gnarlyimage}link={"https://substack.com/home/post/p-149945377"}/>
+      <PlogBost title="new[speak] primary school rules!"content={NEWSPEAK_RULES}color="#9C3300"fooooooooooooooo0o0o0ont="comic relief"contentofplogbooooooo0oo0o0ost={NEWSPEAK_RULES_2}imageofplogboooo0o0ost={largemalesiblingimage}link={"https://jaydenyang44.substack.com/p/newspeak-school-rules"}/>
     </div>
 
   );

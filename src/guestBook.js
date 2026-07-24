@@ -1,11 +1,14 @@
 import { useState, useEffect } from "react";
 import { supabase } from "./supabaseClient";
+import nineteeneightyfourbg from "./1984.jpg"
 
 function GuestBook() {
     const [username, setUsername] = useState("");
     const [message, setMessage] = useState("");
     const [cooldown, setCooldown] = useState(false);
     const [allEntries, setAllEntries] = useState([]);
+    const badwordbank = ["goldstein", "diary", "freedom", "winston", "down with big brother", "anti party", "anti-party", "anti big brother", "anti-big-brother", "hate", "rebel", "rebellion", "private", "privacy", "writing", "THE BOOK", "war with Eastasia", "allies with Eurasia"]
+    const warningbank = ["WARNING, THOUGHTCRIME DETECTED⚠️‼️", "ALERT, BIG BROTHER IS WATCHING YOU⚠️‼️", "CAUTION, BIG BROTHER CAN SEE YOU THROUGH THE TELESCREEN⚠️‼️", "SUSPICIOUS ANTI-REVOLUTION INPUT DETECTED⚠️‼️", "DISLOYALTY RECORDED⚠️‼️", "THOUGHTCRIME REPORTED⚠️‼️", "FLAGGED FOR THOUGHTCRIME⚠️‼️", "REPORTED FOR SPREADING MISINFORMATION⚠️‼️"]
 
     async function fetchEntries() {
      const { data, error } = await supabase
@@ -28,6 +31,14 @@ function GuestBook() {
             setCooldown(false);
           }, 18000000
         )
+           const hasthoughtcrime = badwordbank.some((word) => message.includes(word));
+
+          if (hasthoughtcrime == true) {
+            const pickwarning = warningbank[Math.floor(Math.random() * warningbank.length)];
+            alert(pickwarning);
+            return
+          };
+
           if (message) {
             const { data, error } = await supabase
             .from("guestbookEntriez2")
@@ -44,8 +55,8 @@ function GuestBook() {
     }
     return (
         <div>
-            <h1>guestbook for signing your name and a message </h1>
-            <h2>BEWARER THERES A 5 HOUR COOLDOWN SO DONT SPAM YO</h2>
+            <h1 style={{fontFamily: "Comic Relief"}}>guestbook for signing your name and a message </h1>
+            <h2 style={{fontFamily: "Comic Relief", color: "red"}}>BEWARER THERES A 5 HOUR COOLDOWN SO DONT SPAM YO</h2>
             <p>whats yo name below</p>
             <input style={{ width: '670px', height: '25px', fontSize: '20px' }} placeholder="ex: yayden" value={username} onChange={(e) => setUsername(e.target.value)}/>
             <p>{username}</p>
@@ -65,6 +76,10 @@ function GuestBook() {
                </li>
                ))}
             </ul>
+            <img src={nineteeneightyfourbg} height="150px" width="700px"></img>
+            <img src={nineteeneightyfourbg} height="150px" width="700px"></img>
+            <img src={nineteeneightyfourbg} height="150px" width="700px"></img>
+            <img src={nineteeneightyfourbg} height="150px" width="700px"></img>
         </div>
     )
 }
